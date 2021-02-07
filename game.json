@@ -1,0 +1,272 @@
+{
+  "passages": [
+    {
+      "text": "You awake in a dark, gloomy basement with only one small window and a staircase.\n\n[[Look Around->Room]]\n[[Close your eyes.]]",
+      "links": [
+        {
+          "name": "Look Around",
+          "link": "Room",
+          "pid": "5"
+        },
+        {
+          "name": "Close your eyes.",
+          "link": "Close your eyes.",
+          "pid": "2"
+        }
+      ],
+      "name": "The Basement",
+      "pid": "1",
+      "position": {
+        "x": "391",
+        "y": "103"
+      }
+    },
+    {
+      "text": "You see nothing. You gain nothing.\n\n[[Open your eyes.->Room]]",
+      "links": [
+        {
+          "name": "Open your eyes.",
+          "link": "Room",
+          "pid": "5"
+        }
+      ],
+      "name": "Close your eyes.",
+      "pid": "2",
+      "position": {
+        "x": "454",
+        "y": "278"
+      }
+    },
+    {
+      "text": "What will you do with the hammer?\n\n[[Break the window.]]\n[[Break the door at the top of the stairs.]]\n[[Set it down.->Room]]",
+      "links": [
+        {
+          "name": "Break the window.",
+          "link": "Break the window.",
+          "pid": "6"
+        },
+        {
+          "name": "Break the door at the top of the stairs.",
+          "link": "Break the door at the top of the stairs.",
+          "pid": "7"
+        },
+        {
+          "name": "Set it down.",
+          "link": "Room",
+          "pid": "5"
+        }
+      ],
+      "name": "Take the hammer.",
+      "pid": "3",
+      "position": {
+        "x": "135",
+        "y": "466"
+      }
+    },
+    {
+      "text": "What will you do with the blanket?\n\n[[Wear it.]]\n[[Set it down.->Room]]",
+      "links": [
+        {
+          "name": "Wear it.",
+          "link": "Wear it.",
+          "pid": "8"
+        },
+        {
+          "name": "Set it down.",
+          "link": "Room",
+          "pid": "5"
+        }
+      ],
+      "name": "Take the blanket.",
+      "pid": "4",
+      "position": {
+        "x": "282",
+        "y": "463"
+      }
+    },
+    {
+      "text": "You see some old rusty nails, a blanket, and a hammer.\n\n[[Take the hammer.]]\n[[Take the blanket.]]\n[[Take the nails.->Take the nails.]]",
+      "links": [
+        {
+          "name": "Take the hammer.",
+          "link": "Take the hammer.",
+          "pid": "3"
+        },
+        {
+          "name": "Take the blanket.",
+          "link": "Take the blanket.",
+          "pid": "4"
+        },
+        {
+          "name": "Take the nails.",
+          "link": "Take the nails.",
+          "pid": "12"
+        }
+      ],
+      "name": "Room",
+      "pid": "5",
+      "position": {
+        "x": "285",
+        "y": "274"
+      }
+    },
+    {
+      "text": "You beat the hammer on the window, and after a moment, the glass shatters.\n\n[[Crawl out of the window.]]\n[[Try the door instead.->Break the door at the top of the stairs.]]",
+      "links": [
+        {
+          "name": "Crawl out of the window.",
+          "link": "Crawl out of the window.",
+          "pid": "13"
+        },
+        {
+          "name": "Try the door instead.",
+          "link": "Break the door at the top of the stairs.",
+          "pid": "7"
+        }
+      ],
+      "name": "Break the window.",
+      "pid": "6",
+      "position": {
+        "x": "60",
+        "y": "632"
+      }
+    },
+    {
+      "text": "You beat the hammer on the doorknob, and it breaks off.\n\n[[Push the door open.]]\n[[Go back downstairs.->Take the hammer.]]",
+      "links": [
+        {
+          "name": "Push the door open.",
+          "link": "Push the door open.",
+          "pid": "11"
+        },
+        {
+          "name": "Go back downstairs.",
+          "link": "Take the hammer.",
+          "pid": "3"
+        }
+      ],
+      "name": "Break the door at the top of the stairs.",
+      "pid": "7",
+      "position": {
+        "x": "192",
+        "y": "632"
+      }
+    },
+    {
+      "text": "You're warmer, but still trapped in this basement. What now?\n\n[[Take the hammer.]] \n[[Take the nails.]] ",
+      "links": [
+        {
+          "name": "Take the hammer.",
+          "link": "Take the hammer.",
+          "pid": "3"
+        },
+        {
+          "name": "Take the nails.",
+          "link": "Take the nails.",
+          "pid": "12"
+        }
+      ],
+      "name": "Wear it.",
+      "pid": "8",
+      "position": {
+        "x": "368",
+        "y": "629"
+      }
+    },
+    {
+      "text": "You pound the nails on the glass of the window, but they're too dull.\n\n[[Hmm, maybe this wont work.->Take the nails.]]",
+      "links": [
+        {
+          "name": "Hmm, maybe this wont work.",
+          "link": "Take the nails.",
+          "pid": "12"
+        }
+      ],
+      "name": "Doesn't work",
+      "pid": "9",
+      "position": {
+        "x": "535",
+        "y": "635"
+      }
+    },
+    {
+      "text": "You pick the nails at the doorknob, but it doesn't budge.\n\n[[Hmm, maybe this wont work.->Take the nails.]]",
+      "links": [
+        {
+          "name": "Hmm, maybe this wont work.",
+          "link": "Take the nails.",
+          "pid": "12"
+        }
+      ],
+      "name": "Doesn't work2",
+      "pid": "10",
+      "position": {
+        "x": "671",
+        "y": "637"
+      }
+    },
+    {
+      "text": "You push open the door, and for a moment, all you see is black.\n\n[[Blink.->The Basement]]",
+      "links": [
+        {
+          "name": "Blink.",
+          "link": "The Basement",
+          "pid": "1"
+        }
+      ],
+      "name": "Push the door open.",
+      "pid": "11",
+      "position": {
+        "x": "189",
+        "y": "806"
+      }
+    },
+    {
+      "text": "What will you do with the nails?\n\n[[Break the window.->Doesn't work]]\n[[Break the door at the top of the stairs.->Doesn't work2]]\n[[Set them down.->Room]]",
+      "links": [
+        {
+          "name": "Break the window.",
+          "link": "Doesn't work",
+          "pid": "9"
+        },
+        {
+          "name": "Break the door at the top of the stairs.",
+          "link": "Doesn't work2",
+          "pid": "10"
+        },
+        {
+          "name": "Set them down.",
+          "link": "Room",
+          "pid": "5"
+        }
+      ],
+      "name": "Take the nails.",
+      "pid": "12",
+      "position": {
+        "x": "443",
+        "y": "463"
+      }
+    },
+    {
+      "text": "Carefully, you crawl out of the window, leaving the hammer behind as you do. As you walk, you find yourself free from the basement.\n\n[[Start over->The Basement]]",
+      "links": [
+        {
+          "name": "Start over",
+          "link": "The Basement",
+          "pid": "1"
+        }
+      ],
+      "name": "Crawl out of the window.",
+      "pid": "13",
+      "position": {
+        "x": "62",
+        "y": "806"
+      }
+    }
+  ],
+  "name": "The Basement",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.11",
+  "ifid": "70201309-AC95-4688-B2C8-51FB67F69C61"
+}
